@@ -8,6 +8,9 @@
 4. RS  - Any GPIO Output
 5. RST - Any GPIO Output
 
+>For UNO, Mega direct connection: 5V to A5 pins
+
+
 ## Reference
 - TFT_22_ILI9225.h header file 
 - [GitHub Library](https://github.com/Nkawu/TFT_22_ILI9225)
@@ -17,6 +20,7 @@
 
 
 1. ```#include "TFT_22_ILI9225.h"```
+   ```#include "SPI.h```
 2. ```tft.begin()```
 3. To set background color : <br>
    **fillRectangle(x_start, y_start, x_end, y_end, Color)**<br>
