@@ -4,7 +4,7 @@
 ## Pin Connections
 1. SCK - SPI CLK
 2. SDA - SPI MOSI
-3. CS  - SPI SS
+3. CS  - SPI SS (if multiple slaves) //Else any GPIO Output
 4. RS  - Any GPIO Output
 5. RST - Any GPIO Output
 
@@ -13,6 +13,9 @@
 - [GitHub Library](https://github.com/Nkawu/TFT_22_ILI9225)
 
 ## Workflow
+>Copy and paste this repo to libraries directory of Arduino ***Arduino/Libraries***
+
+
 1. ```#include "TFT_22_ILI9225.h"```
 2. ```tft.begin()```
 3. To set background color : <br>
@@ -29,5 +32,7 @@
 6. To write text :<br>
    ```tft.drawText(x_point, y_point, String, ${COLOR_NAME})```
    
-
+## Useful Tips
+1. To convert int and float to string : <br>
+   ```String(${NUM}) //precision upto 2 decimal points```
    
