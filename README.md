@@ -15,18 +15,18 @@
 ## Workflow
 1. ```#include "TFT_22_ILI9225.h"```
 2. ```tft.begin()```
-3. To set background color :
-   **fillRectangle(x_start, y_start, x_end, y_end, Color)**
-   Eg:
+3. To set background color : <br>
+   **fillRectangle(x_start, y_start, x_end, y_end, Color)**<br>
+   Eg:<br>
    ```tft.fillRectangle(0, 0, tft.maxX() - 1, tft.maxY() - 1, COLOR_BLACK)```
-4. To set text background color :
+4. To set text background color :<br>
    ```tft.setBackgroundColor(COLOR_BLACK) //same as whole BG for visibility```
-5. To set font :
+5. To set font :<br>
    ```tft.setFont(${FONT_NAME})```
    - Terminal6x8   : Smallest (Not recommended)
    - Terminal11x16 : Medium
    - Terminal12x16 : Largest
-6. To write text :
+6. To write text :<br>
    ```tft.drawText(x_point, y_point, String, ${COLOR_NAME})```
    
 
