@@ -10,7 +10,7 @@
 
 ## Reference
 - TFT_22_ILI9225.h header file 
-- [GitHub Library] (https://github.com/Nkawu/TFT_22_ILI9225)
+- [GitHub Library](https://github.com/Nkawu/TFT_22_ILI9225)
 
 ## Workflow
 1. ```#include "TFT_22_ILI9225.h"```
