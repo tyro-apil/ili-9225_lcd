@@ -12,11 +12,11 @@
 
 
 ## Reference
-- TFT_22_ILI9225.h header file 
-- [GitHub Library](https://github.com/Nkawu/TFT_22_ILI9225)
+- [ILI9225 Library](https://github.com/Nkawu/TFT_22_ILI9225)
 
 ## Workflow
->Copy and paste this repo to libraries directory of Arduino ***Arduino/Libraries***
+>Install ***TFT_22_ILI9225*** by Nkawu
+>Copy ***crc.hpp and crc.cpp*** from robotlib repo & paste to ***Arduino/Libraries*** directory
 
 
 1. ```#include "TFT_22_ILI9225.h"```
