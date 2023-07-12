@@ -15,7 +15,7 @@
 - [ILI9225 Library](https://github.com/Nkawu/TFT_22_ILI9225)
 
 ## Workflow
->Install ***TFT_22_ILI9225*** by Nkawu
+>Install ***TFT_22_ILI9225*** by Nkawu <br>
 >Copy ***crc.hpp and crc.cpp*** from robotlib repo & paste to ***Arduino/Libraries*** directory
 
 
